@@ -1,0 +1,88 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+html {height: 100%}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color:burlywood;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+    float: left;
+}
+
+a {
+    color:lightcoral;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(19, 192, 223);
+}
+a, a:hover {
+    -webkit-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    transition: all.6s ease;
+}
+
+.clear {
+       clear: both;
+}
+
+/*Стили для шапки */
+
+header {
+    width: 98%;
+    float: left;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.479);
+    border-bottom: 2px solid rgb(247, 33, 33);
+
+}
+
+header #logo{
+    width: 40%;
+    float: left;
+}
+
+header #logo a { 
+    color: rgb(206, 66, 66);
+    font-size: 2em;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+header #logo span {
+    color: rgb(247, 33, 33);
+}
+
+header #menuHead{
+    width: 24%;
+    float: left;
+}
+
+header #menuHead div{
+    float: left;
+    padding: 5px;
+    background-color:  burlywood;
+    border-radius: 5px;
+    color: black;
+}
+
+header #menuHead div:hover{
+    background-color:  rgb(250, 91, 51);
+}
+
+header #regAuth{
+    width: 30%;
+    float: left;
+    text-align: right;
+    font-size: 1.2em;
+}
