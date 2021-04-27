@@ -19,6 +19,13 @@ body {
     float: left;
 }
 
+img{
+	max-width:100%;
+	height:auto;
+	width:auto\9; 
+}
+
+
 a {
     color:lightcoral;
     text-decoration: none;
@@ -47,6 +54,7 @@ header {
     padding: 1%;
     background-color: rgba(0, 0, 0, 0.479);
     border-bottom: 2px solid rgb(247, 33, 33);
+	margin-bottom:20px;
 
 }
 
@@ -88,7 +96,36 @@ header #regAuth{
     text-align: right;
     font-size: 1.2em;
 }
+/*Стили для всего документа*/
+#wrapper{
+	width:80%;
+	margin-left:10%;
+	float:left;
+}
 
+#wrapper #leftCol{
+	width:70%;
+	margin-right:10%;
+	/*background-color:red;*/
+	float:left;
+	/*height:100px;*/
+	/*margin-left:10%;*/
+}
+
+#wrapper #rightCol{
+	width:20%;
+	/*background-color:yellow;*/
+	float:right;
+	/*height:100px;*/
+}
+
+#wrapper #rightCol .banner{
+	width:100%;
+	float: left;
+	margin-bottom:20px;
+	border:2px solid rgb(247, 33, 33);
+	box-sizing:border-box;
+}
 /* стили для Footer*/
 footer{
 	width:98%;

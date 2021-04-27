@@ -24,6 +24,26 @@
       <a href="/reg.php">Регистрация</a> | <a href="auth.php"> Авторизация</a>
       </div>
    </header>
+   
+   <div id="wrapper">
+		<div id="leftCol">
+		
+		</div>
+		<div id="rightCol">
+			<div class="banner">
+				<img src="/img/banner_1.jpg" alt="Баннер 1" title="Баннер 1">
+				
+			
+			</div>
+			<div class="banner">
+				<img src="/img/banner_2.jpg" alt="Баннер 2" title="Баннер 2">
+				
+			
+			</div>
+		
+		</div>
+   </div>
+   
    <footer>
 		<div id="social">
 			<a href="http://vk.com" title="Группа Вк" target= "_blank">
