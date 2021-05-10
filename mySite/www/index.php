@@ -2,9 +2,10 @@
 <html>
 <head>
   <?php 
+    require_once "functions/functions.php";
     $title = "Фильмы и сериалы";
     require_once "blocks/head.php" ;
-	$news = getNews(3);
+	$news = getNews(3, $id);
   ?>
   <link rel="icon" type="image/png" href="/img/iconcinema.png"> 
 </head>
@@ -25,7 +26,7 @@
 				echo '<img src="/img/articles/'.$news[$i]["id"].'.png" alt="Статья '.$news[$i]["id"].'" title="Статья '.$news[$i]["id"].'">
 				<h2>'.$news[$i]["title"].'</h2>
 				<p>'.$news[$i]["intro_text"].'</p>
-				<a href="/article.php">
+				<a href="/article.php?id='.$news[$i]["id"].'">
 				<div class="more">Далее</div>
 				</a>
 				</div>' ;
